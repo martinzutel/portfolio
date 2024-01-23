@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className}  bg-slate-900 text-gray-200 relative`}
+        className={`${inter.className}  bg-slate-900 text-gray-200  relative h-[5000px] pt-28 sm:pt-36`}
       >
         <div
           className=" bg-purple-400 absolute top-[-4rem] right-[-60rem] h-[31.25rem] w-[60.25rem] rounded-full blur-[30rem]
