@@ -16,8 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+      </head>
       <body
-        className={`${inter.className}  bg-black text-gray-200  relative h-[5000px] pt-28 sm:pt-36`}
+        className={`${inter.className}  bg-black text-gray-200  relative h-[5000px] pt-28 sm:pt-36 `}
         style={{ overflowX: "hidden" }}
       >
         <div
