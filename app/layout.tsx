@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className}  bg-neutral-800 text-gray-200  relative h-[5000px] pt-28 sm:pt-36`}
+        className={`${inter.className}  bg-black text-gray-200  relative h-[5000px] pt-28 sm:pt-36`}
         style={{ overflowX: "hidden" }}
       >
         <div
