@@ -20,8 +20,8 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
       </head>
       <body
-        className={`${inter.className}  bg-black text-gray-200  relative h-[5000px] pt-28 sm:pt-36 `}
-        style={{ overflowX: "hidden" }}
+        className={`${inter.className}  bg-black text-gray-200  relative h-[5000px] pt-28 sm:pt-36  overflow-x-hidden`}
+
       >
         <div
           className=" bg-custom-red absolute top-[-4rem] right-[-60rem] h-[31.25rem] w-[60.25rem] rounded-full blur-[30rem]
