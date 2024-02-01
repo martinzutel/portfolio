@@ -38,6 +38,7 @@ export default function Intro() {
         <span className="font-bold text-custom-red">Hello, I&apos;m Martin.</span> I&apos;m a{" "}
         <span className="font-bold text-custom-red" >programming student</span> on my way to becoming a{" "}
         <span className="font-bold text-custom-red">full-stack developer</span>. I enjoy learning about <span className="font-bold text-custom-red" >design</span>, <span className="font-bold text-custom-red">coding</span>, and <span className="font-bold text-custom-red">web development</span>.
+        <span>test up 1</span>
       </motion.h1>
 
       <motion.div className="flex flex-col sm:flex-row items-center justify-center px-4 text-lg font-medium"
