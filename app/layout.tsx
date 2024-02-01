@@ -21,12 +21,12 @@ export default function RootLayout({
         style={{ overflowX: "hidden" }}
       >
         <div
-          className=" bg-neutral-400 absolute top-[-4rem] right-[-60rem] h-[31.25rem] w-[60.25rem] rounded-full blur-[30rem]
+          className=" bg-custom-red absolute top-[-4rem] right-[-60rem] h-[31.25rem] w-[60.25rem] rounded-full blur-[30rem]
          sm:w-[68.75rem] transition-all duration-300 -z-10"
         ></div>
 
         <div
-          className=" bg-neutral-400 absolute top-[25rem]  left-[-60rem] h-[31.25rem] w-[60.25rem] rounded-full blur-[30rem]
+          className="  bg-custom-red  absolute top-[25rem]  left-[-60rem] h-[31.25rem] w-[60.25rem] rounded-full blur-[30rem]
          sm:w-[68.75rem] md:left[-28rem] lg:left[-26rem] xl:left[-14rem] 2xl:lef[-4rem]  transition-all duration-300 -z-10"
         ></div>
         
