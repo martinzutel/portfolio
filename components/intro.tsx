@@ -63,13 +63,13 @@ export default function Intro() {
         }}
       >
         <div className=" flex space-x-6">
-          <Link href="https://github.com/martinzutel" target="_blank" rel="noopener noreferrer">
+          <Link href="https://github.com/martinzutel" target="_blank" rel="noopener noreferrer" className="focus:scale-110 hover:scale-110  active:scale-105">
             <FaGithub className=" text-custom-red text-4xl" />
           </Link>
-          <Link href="https://www.instagram.com/martinzutel.dev/" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.instagram.com/martinzutel.dev/" target="_blank" rel="noopener noreferrer" className="focus:scale-110 hover:scale-110  active:scale-105">
             <LuInstagram className=" text-custom-red text-4xl" />
           </Link>
-          <Link href="https://www.linkedin.com/in/martín-zutel-914b67219/" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.linkedin.com/in/martín-zutel-914b67219/" target="_blank" rel="noopener noreferrer" className="focus:scale-110 hover:scale-110  active:scale-105">
             <FaLinkedin className=" text-custom-red text-4xl" />
           </Link>
         </div>
