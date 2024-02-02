@@ -15,19 +15,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className=" overflow-x-hidden">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
       </head>
-      
       <body
-        className={`${inter.className}  bg-black text-gray-200  relative h-[5000px] pt-28 sm:pt-36  `}
+        className={`${inter.className}  bg-black text-gray-200  relative h-[5000px] pt-28 sm:pt-36 overflow-x-hidden`}
+        style={{ overflowX: "hidden" }}
       >
-        <div className="overflow-x-hidden">
-          <div
-          className=" bg-custom-red absolute top-[-4rem] left-[80rem] h-[31.25rem] w-[60.25rem] rounded-full blur-[30rem]
+        <div
+          className=" bg-custom-red absolute top-[-4rem] right-[-60rem] h-[31.25rem] w-[60.25rem] rounded-full blur-[30rem]
          sm:w-[68.75rem] transition-all duration-300 -z-10"
-          ></div>
+        ></div>
 
         <div
           className="  bg-custom-red  absolute top-[25rem]  left-[-60rem] h-[31.25rem] w-[60.25rem] rounded-full blur-[30rem]
@@ -37,11 +36,13 @@ export default function RootLayout({
         <Header />
 
         {children}
-        </div>
-        
       </body>
     </html>
   );
 }
 
 
+
+  {/*<div className="flex absolute font-extrabold text-5xl sm:text-9xl">
+  martin zutel
+  </div>*/}
