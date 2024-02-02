@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="z-[999] relative">
       <motion.div
-        className=" fixed top-3 left-1/2 h-[4.5rem] w-[22rem] rounded-full border-none border-white border-opacity-40 bg-white bg-opacity-10 shadow-lg shadow-black/[0.3]  backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[22rem] sm:rounded-full"
+        className=" fixed top-3 left-1/2 h-[3.25rem] w-[22rem] rounded-full border-none border-white border-opacity-40 bg-white bg-opacity-10 shadow-lg shadow-black/[0.3]  backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[22rem] sm:rounded-full"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>

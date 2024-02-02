@@ -45,7 +45,7 @@ export default function Intro() {
         <span className="font-bold text-custom-red">
           I&apos;m Martin Zutel,
         </span>{" "}
-        a<span className="font-bold text-custom-red">programming student</span>{" "}
+        a<span className="font-bold text-custom-red"> programming student</span>{" "}
         on my way to becoming a{" "}
         <span className="font-bold text-custom-red">full-stack developer</span>.
         I enjoy learning about{" "}
