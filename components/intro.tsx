@@ -6,16 +6,15 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import {
   FaGithub,
-  FaInstagram,
-  FaInstagramSquare,
   FaLinkedin,
-  FaTwitter,
 } from "react-icons/fa";
-import { LuInstagram, LuLinkedin } from "react-icons/lu";
+import {
+   LuInstagram, 
+ } from "react-icons/lu";
 
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section className="mb-20 max-w-[50rem] text-center sm:mb-0">
       <div className="flex items-center justify-center">
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
@@ -38,7 +37,7 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-8 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-8 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl text-center"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >

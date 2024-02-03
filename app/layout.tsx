@@ -23,11 +23,10 @@ export default function RootLayout({
         ></meta>
       </head>
       <body
-        className={`${inter.className}  bg-zinc-950 text-gray-200  relative h-[5000px] pt-28 sm:pt-36 overflow-x-hidden`}
-        style={{ overflowX: "hidden" }}
+        className={`  bg-zinc-950 text-gray-200  relative  pt-28 sm:pt-42 overflow-x-hidden`}
+        style={{ overflowX: "hidden", fontFamily: "articulat-heavy-cf" }}
       >
         <Header />
-
         {children}
       </body>
     </html>
